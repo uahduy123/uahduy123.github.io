@@ -1,0 +1,182 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: #e9eaea;
+    margin: 0;
+}
+
+.wrapper-all {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 0;
+}
+
+.flt-l {
+    display: block;
+    float: left;
+}
+
+.flt-r {
+    display: block;
+    float: right;
+}
+
+.wrapper-flt::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header img {
+    display: block;
+    margin-top: 10px;
+    height: 44px;
+}
+
+header nav {
+    height: 80px;
+    padding-top: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: blue ;
+}
+
+header a {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.breadcrumb {
+    font-size: 1.2rem;
+}
+
+.breadcrumb ul {
+    padding-left: 0;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.breadcrumb a {
+    font-weight: normal;
+}
+
+.breadcrumb a::after {
+    content: ">";
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.search {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    height: 70px;
+}
+
+
+.col-1, .col-2, .col-3 {
+    float: left;
+    width: 30%;
+    margin: 0;
+}
+
+.col-2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+article {
+    background-color: #fff;
+    margin-top: 5%;
+}
+
+article img {
+    width: 100%;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 10px;
+}
+
+article p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 0 10px;
+    border-bottom: solid 1px #e9eaea;
+}
+
+article footer {
+    padding: 10px;
+}
+
+.pagination {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.pagination a {
+    display: inline-block;
+    padding-top: 10px;
+    width: 35px;
+    height: 35px;
+}
+
+.pagination::before {
+    content: "<<";
+}
+
+.pagination::after {
+    content: ">>";
+}
+
+footer.ft-all {
+    background-color: #222428;
+    color: #fff;
+    font-size: 0.9rem;
+    padding-top: 20px;
+    line-height: 1.5rem;
+}
+
+.footer__col-1, .footer__col-2, .footer__col-3, .footer__col-4 {
+    float: left;
+    width: 25%;
+}
+
+footer h1 {
+    font-size: 1.1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    padding: 5px 0 5px 0;
+}
+
+
