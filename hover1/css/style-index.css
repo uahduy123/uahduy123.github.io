@@ -1,0 +1,23 @@
+.box{
+	width: 500px;
+	height: 350px;
+	background-color: pink;
+	border-radius: 0px;
+	margin: 0 auto;
+	transition: border-radius 1s linear, background-color 1s linear;
+}
+
+.box:hover {
+	background-color: white;
+	border-radius: 50%;
+	transition: border-radius 1s linear, background-color 1s linear 1s;
+}
+
+h1{ line-height: 300px;
+	font-size: 100px;
+	text-align: center;
+	color: white;
+	text-decoration: none
+}
+
+

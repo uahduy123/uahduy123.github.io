@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div{
+    height: 33.33%
+}
+p{
+    font-size: 60px;
+    color: #000000;
+    line-height: 95px;
+    font-weight: 800;
+}
+.text{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.text p{
+    color: #ffffff;
+    position: relative;
+}
+
+p.text_1{
+    background-color: pink;
+}
+p.text_2{
+    background-color: gray;
+}
+p.text_3{
+    background-color: brown;
+}
+@keyframes text_1 {
+    0%{ top: -100Px;}
+    5%{top: -50px;}
+    10%{top: 0px;}
+}
+@keyframes text_2 {
+    30%{top: 100px;}
+    45%{top: -60px;}
+    65%{top: -60px;}
+}
+@keyframes text_3 {
+    0%{opacity: 0;}
+    60%{opacity: 0;}
+    90%{opacity: 1;}
+}
+
+
+p.text_1{
+    animation: text_1 6s ease infinite;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+}
+p.text_2{
+    animation: text_2 6s ease infinite;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+p.text_3{
+    animation: text_3 6s ease infinite;
+    position: absolute;
+    top: -60px;
+    z-index: 2;
+    width: 100%;
+}
+

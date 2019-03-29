@@ -1,0 +1,25 @@
+
+.animation img{
+	box-sizing: border-box;
+	animation: img 2s ease infinite;
+	width: 300px;
+	margin: 15%;
+}
+@keyframes img {
+    10% {
+        transform: scale(1.2);
+    }
+    20% {
+        transform: scale(1.4);
+    }
+    30% {
+        transform: scale(1.6);
+    }
+    40% {
+        transform: scale(1.8);
+    }
+    100% {
+        transform: scale(2.4);
+    }
+}
+
