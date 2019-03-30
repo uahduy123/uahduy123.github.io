@@ -1,23 +1,22 @@
 .box{
-	width: 500px;
-	height: 350px;
-	background-color: pink;
-	border-radius: 0px;
+	width: 300px;
+	height: 150px;
+	background-color: #003366;
+	border-radius: 10px;
 	margin: 0 auto;
-	transition: border-radius 1s linear, background-color 1s linear;
+	transition: background-color 1s linear, border-radius 1s linear; 
+}
+
+h1{ line-height: 150px;
+	font-size: 70px;
+	text-align: center;
+	color: white;
+}
+a{
+	text-decoration: none;
 }
 
 .box:hover {
-	background-color: white;
-	border-radius: 50%;
-	transition: border-radius 1s linear, background-color 1s linear 1s;
+	background-color: #009900;
+	border-radius: 50px;
 }
-
-h1{ line-height: 300px;
-	font-size: 100px;
-	text-align: center;
-	color: white;
-	text-decoration: none
-}
-
-
