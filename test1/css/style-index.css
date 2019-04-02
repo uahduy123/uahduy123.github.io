@@ -1,0 +1,23 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1{ text-align: center;
+	color:red; 
+}
+.img-wrapper {
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+img {
+    transition: transform 1s;
+}
+
+
+.img-wrapper:hover img {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
