@@ -1,0 +1,305 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 13px;
+}
+
+body {
+    margin: 0;
+    color: white;
+    font-family: arial,sans-serif;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu_search {
+    width: 100%;
+    height: 3rem;
+    background-color: #232f3e;
+    padding-top: 12px;
+}
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.header-wrapper {
+    background-color: #232f3e;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+}
+
+.address {
+    width: 92px;
+    height: 44px;
+    display: inline-block;
+    transform: translate(0, 10px);
+    margin-left: 10px;
+}
+
+.address:hover {
+    border: 1px solid #aaa;
+}
+
+.icon-position {
+    width: 22px;
+    height: 22px;
+    overflow: hidden;
+    float: left;
+    margin-top: 11px;
+}
+
+.icon-position img {
+    transform: translate(-66px, -304px);
+}
+
+span.country {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+div.country {
+    float: left;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid #232f3e;
+}
+
+li:hover {
+    border: 1px solid #aaa;
+}
+
+.menu-sub-menu-wrapper {
+    font-weight: bold;
+    position: relative;
+}
+
+
+
+.menu-sub-menu-wrapper::after {
+    content: '\25bc';
+    display: inline-block;
+    color: #666;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.lang {
+    height: 43px;
+    border-right: 1px solid #aaa;
+}
+
+.icon-lang {
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+}
+
+.icon-lang img {
+    transform: translate(-77px,-25px);
+}
+
+.wrapper-lang {
+    display: inline-block;
+}
+
+.group2 {
+    position: relative;
+    width: 400px;
+    float: right;
+    transform: translate(0px,15px);
+}
+
+.group2 .menu-sub-menu-wrapper::after {
+    margin-left: 0px;
+}
+
+.sign-in {
+    display: inline-block;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.icon-cart {
+    width: 38px;
+    height: 26px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.icon-cart img {
+    transform: translate(-10px,-340px);
+}
+
+.number-of-items {
+    font-size: 16px;
+    color: orange;
+    position: absolute;
+    top: 6px;
+    left: 272px;
+}
+
+.col-1 {
+    display: inline-block;
+    width: 49.8%;
+    position: relative;
+}
+
+.menu-2-wrapper {
+    width: 200px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 20px;
+    left: -1px;
+    display: none;
+    border-radius: 5px;
+}
+
+.point-up {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+.group1 .point-up {
+    top: -3px;
+    left: 87px;
+}
+
+.menu-2-wrapper li {
+    display: list-item;
+     border: none; 
+}
+
+.menu-2-wrapper li:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.menu-sub-menu-wrapper:hover .menu-2-wrapper {
+    display: block;
+}
+
+.lang .menu-2-wrapper {
+    top: 42px;
+    left: 0px;
+}
+
+.lang .point-up {
+    top: -6px;
+    left: 22px;
+}
+
+.menu-sign-in  .menu-2-wrapper {
+    width: 400px;
+    top: 35px;
+    left: -155px;
+}
+
+.menu-sign-in  .point-up {
+    top: -3px;
+    left: 258px;
+}
+
+.menu-2 .un-hover:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu-2 {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.menu-2 a {
+    color: blue;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+.menu-2 a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.menu-2 .underline {
+    border-bottom: 1px solid #c4c4c4;
+}
+
+.menu-sign-in button {
+    width: 150px;
+    height: 40px;
+    background-color: orange;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+
+.button-text {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.your-list li:first-child {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.your-account li:first-child {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.your-list, .your-account {
+    width: 50%;
+    float: left;
+    margin: 10px 0;
+}
+
+.your-account {
+    border-left: 1px solid #c4c4c4;
+}
