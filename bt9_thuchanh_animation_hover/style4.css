@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+.col4{
+	width: 25%;
+
+	float: left;
+}
+table{
+	width: 80%;
+	background-color: #ffffff;
+	font-family: sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+tr{
+	height: 33.33%
+}
+p{
+	font-size: 3rem;
+	color: #000000;
+	line-height: 5rem;
+	font-weight: bold;
+}
+.text{
+	position: relative;
+	overflow: hidden;
+}
+.text p{
+	color: #ffffff;
+	position: relative;
+}
+
+p.text_1{
+	background-color: orange;
+}
+p.text_2{
+	background-color: #cc0099;
+}
+p.text_3{
+	background-color: #009933;
+}
+@keyframes text_1 {
+	0%{ top: -100Px;}
+	5%{top: -50px;}
+	10%{top: 0px;}
+}
+@keyframes text_2 {
+	30%{top: 50px;}
+	45%{top: -48px;}
+	65%{top: -48px;}
+}
+@keyframes text_3 {
+	0%{opacity: 0;}
+	60%{opacity: 0;}
+	90%{opacity: 1;}
+}
+
+
+p.text_1{
+	animation: text_1 6s ease infinite;
+	position: relative;
+	margin: 0 auto;
+	z-index: 0;
+}
+p.text_2{
+	animation: text_2 6s ease infinite;
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+}
+p.text_3{
+	animation: text_3 6s ease infinite;
+	position: absolute;
+	top: -48px;
+	z-index: 2;
+	width: 100%;
+}
+
+.row2_text p{
+	color: red;
+}

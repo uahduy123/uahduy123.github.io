@@ -1,0 +1,28 @@
+
+body{
+	/*A4*/ width: 210mm;
+	height: 297mm;
+	font-family: times new romans;
+	text-align: justify; 
+	font-size: 18px; 
+	color: gray;
+	padding-left: 8cm;
+}
+
+.bold{
+	color: red;
+	text-align: center; 
+	font-weight: bold 
+}
+.italic{
+  	font-style: italic; 
+  	text-align: left;
+}
+div{
+	float: right;
+	margin-right: 3cm;
+}
+#kyten{
+	margin-top: 1cm;
+	color: black;
+}

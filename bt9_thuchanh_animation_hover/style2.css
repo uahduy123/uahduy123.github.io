@@ -1,0 +1,21 @@
+*{box-sizing: border-box;}
+.col2{
+	width: 25%;
+
+	float: left;
+}	
+.grid_group{
+	width: 70%;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+.grid_group img{
+	transition: transform 1s linear;
+	width: 100%;
+	border: 1px solid #999966;
+}
+.grid_group img:hover{
+	transform: scale(1.2);
+}

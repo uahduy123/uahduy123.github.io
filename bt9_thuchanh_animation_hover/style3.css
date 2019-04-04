@@ -1,0 +1,23 @@
+.col3{
+	width: 25%;
+
+	float: left;
+}
+.animation{
+	width: 100%;
+	margin: 0 auto;
+}
+.animation img{
+	width: 50%;
+	margin: 0 auto;
+	margin-left: 20%;
+}
+@keyframes img {
+	20% {transform: scale(1.5);}
+	30% {transform: scale(1.2);}
+	50% {transform: scale(1.5);}
+	100% {transform: scale(1);}
+}
+.animation img{
+	animation: img 3s ease infinite;
+}

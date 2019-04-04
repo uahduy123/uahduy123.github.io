@@ -1,0 +1,46 @@
+body{
+	text-align: center;
+	}
+.wrap{
+	max-width: 1000px;
+	margin: auto;
+}
+#menu a{
+	margin: 30px;
+	font-size: 18px
+}
+.active{
+	font-weight: bold;
+}
+a:visited{
+	color: black;
+}
+
+a:link{
+	color: black;
+}
+a:hover{
+	font-weight: bold;
+}
+.box img:hover{
+	border-radius: 30Px;
+	border-color: green;
+}
+img{
+	max-width: 1000px;
+}
+
+*{
+	box-sizing: border-box;
+}
+.box{
+	float: left;
+}
+.box img{
+	border: 2px solid orange;
+	width: 333.33px;
+	height: 223.5px;
+	margin-top: 10px;
+	float: left;
+}
+
