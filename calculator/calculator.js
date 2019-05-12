@@ -121,3 +121,9 @@ function compute(){
 	document.getElementById('answer').value=ans;
 
 }
+
+function close_window() {
+  if (confirm("Close Window?")) {
+    close();
+  }
+}
