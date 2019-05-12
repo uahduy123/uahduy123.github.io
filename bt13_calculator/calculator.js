@@ -119,9 +119,7 @@ function compute() {
   document.getElementById("answer").value = ans;
 }
 
-var self=this;
 function close_window() {
-  if (confirm("Close Window?")) {
-    self.close();
-  }
+ 	window.open('', '_self', '');
+	window.close();
 }
