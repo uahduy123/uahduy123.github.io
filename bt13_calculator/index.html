@@ -1,74 +1,68 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title> Calculator </title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title> Calculator </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-	<table>
-		<tr>
-			<tr>
-				<td class="heading" style="color: red">Calculator </td>
-			</tr>
+  <table>
+    <tr>
+      <tr>
+        <td class="heading" style="color: red">Calculator </td>
+      </tr>
 
-			<td>
-				<input type="text" id="input" placeholder="">
-				<input type="text" id="answer" style="color: green">
-			</td>
+      <td>
+        <input type="text" id="input" placeholder="">
+        <input type="text" id="answer" style="color: green">
+      </td>
 
-		</tr>
+    </tr>
 
-		<td>
-			<input type="button" value="AC" onclick="clearScreen()" style="color: white ; background: red">	
-			<input type="button" value="C" onclick="clearScreen()" >		
-			<input type="button" value="Close" onclick="close_window()" style="color: black">
-			<input type="button" value="del" onclick="back()" >		
-			<input type="button" value=" = " onclick="compute()" style="color: white ; background: red">	
-			
+    <td>
+      <input type="button" value="AC" onclick="clearScreen()" style="color: white ; background: red">
+      <input type="button" value="C" onclick="clearScreen()">
+      <input type="button" value="Close" onclick="close_window()" style="color: black">
+      <input type="button" value="del" onclick="back()">
+      <input type="button" value=" = " onclick="compute()" style="color: white ; background: red">
 
-			<br>
+      <br>
 
-			<input type="button" value="&#8730" onclick="tinhCanBacHai()" style="color: white ; background: red">	
-			<input type="button" value="^2" onclick="getOperand('^2')" >	
-			<input type="button" value=" ! " onclick="tinhGiaiThua()" >	
-			<input type="button" value="(" onclick="getOperand('(')" >
-			<input type="button" value=")" onclick="getOperand(')')" style="color: white ; background: red">	
+      <input type="button" value="&#8730" onclick="tinhCanBacHai()" style="color: white ; background: red">
+      <input type="button" value="^2" onclick="getOperand('^2')">
+      <input type="button" value=" ! " onclick="tinhGiaiThua()">
+      <input type="button" value="(" onclick="getOperand('(')">
+      <input type="button" value=")" onclick="getOperand(')')" style="color: white ; background: red">
 
+      <br>
 
-			<br>
+      <input type="button" value=" + " onclick="getOperand('+')" style="color: white ; background: red">
+      <input type="button" value=" - " onclick="getOperand('-')" style="color: white ; background: red">
+      <input type="button" value=" x " onclick="getOperand('x')" style="color: white ; background: red">
+      <input type="button" value=" &#247 " onclick="getOperand('/')" style="color: white ; background: red">
+      <input type="button" value="." onclick="(getOperand('.'))" style="color: white ; background: red">
 
+      <br>
 
-			<input type="button" value=" + " onclick="getOperand('+')" style="color: white ; background: red">	
-			<input type="button" value=" - " onclick="getOperand('-')" style="color: white ; background: red">	
-			<input type="button" value=" x " onclick="getOperand('x')" style="color: white ; background: red">	
-			<input type="button" value=" &#247 " onclick="getOperand('/')" style="color: white ; background: red">	
-			<input type="button" value="." onclick="(getOperand('.'))"style="color: white ; background: red">	
+      <input type="button" value=" 5 " onclick="getNumber(5)" style="color: white ; background: red">
+      <input type="button" value=" 6 " onclick="getNumber(6)">
+      <input type="button" value=" 7 " onclick="getNumber(7)">
+      <input type="button" value=" 8 " onclick="getNumber(8)">
+      <input type="button" value=" 9 " onclick="getNumber(9)" style="color: white ; background: red">
 
-			
-			<br>
+      <br>
 
+      <input type="button" value=" 0 " onclick="getNumber(0)" style="color: white ; background: red">
+      <input type="button" value=" 1 " onclick="getNumber(1)">
+      <input type="button" value=" 2 " onclick="getNumber(2)">
+      <input type="button" value=" 3 " onclick="getNumber(3)">
+      <input type="button" value=" 4 " onclick="getNumber(4)" style="color: white ; background: red">
 
-			<input type="button" value=" 5 " onclick="getNumber(5)" style="color: white ; background: red">	 
-			<input type="button" value=" 6 " onclick="getNumber(6)">
-			<input type="button" value=" 7 " onclick="getNumber(7)">
-			<input type="button" value=" 8 " onclick="getNumber(8)">
-			<input type="button" value=" 9 " onclick="getNumber(9)"style="color: white ; background: red">	
-			
-			
-			<br>
+    </td>
+  </table>
 
-
-			<input type="button" value=" 0 " onclick="getNumber(0)"style="color: white ; background: red">	
-			<input type="button" value=" 1 " onclick="getNumber(1)">
-			<input type="button" value=" 2 " onclick="getNumber(2)">
-			<input type="button" value=" 3 " onclick="getNumber(3)">
-			<input type="button" value=" 4 " onclick="getNumber(4)"style="color: white ; background: red">	
-
-
-		</td>
-	</table>
-
-
-	<script src="calculator.js"></script>
+  <script src="calculator.js"></script>
 </body>
+
 </html>
