@@ -1,0 +1,77 @@
+
+
+table,td,th{
+	width: 1300px;
+	height: 500px;
+	border: 1px solid grey;
+}
+
+table{
+	border-collapse: collapse;
+	margin-top:30px;
+}
+
+td,th{
+	padding: 3px;
+	
+	height: 20px;
+	min-width: 60px;
+	text-align: center;
+}
+
+th{
+	background: rgba(158, 158, 158, 0.45);
+	color: white;
+	height: 50px;
+}
+
+tr:nth-child(1){
+	background: #f9c7e4;
+}
+tr:nth-child(2){
+	background: #f9c7e4;
+}
+tr:nth-child(3){
+	background: #f9c7e4;
+}
+tr:nth-child(5){
+	background: #f9c7e4;
+}
+tr:nth-child(6){
+	background: #f9c7e4;
+}
+tr:nth-child(7){
+	background: #f9c7e4;
+}
+tr:nth-child(8){
+	background: #f9c7e4;
+}
+tr:nth-child(9){
+	background: #f9c7e4;
+}
+tr:nth-child(10){
+	background: #f9c7e4;
+}
+tr:nth-child(11){
+	background: #f9c7e4;
+}
+tr:nth-child(12){
+	background: #f9c7e4;
+}
+tr:nth-child(12){
+	background: #f9c7e4;
+}
+tr:nth-child(13){
+	background: #f9c7e4;
+}
+tr:nth-child(14){
+	background: #f9c7e4;
+}
+tr:nth-child(15){
+	background: #f9c7e4;
+}
+
+
+
+
+

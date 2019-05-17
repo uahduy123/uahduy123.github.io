@@ -1,0 +1,67 @@
+
+* {
+  box-sizing: border-box;
+}
+#border {
+  font-family: inherit;
+  width: 500px;
+  border: 1px solid blue;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 50px auto;
+} 
+#ho,
+#ten {
+  width: 198px;
+  height: 39px;
+  font-size: 20px;
+  float: left;
+  margin-right: 4px;
+  padding: 10px;
+}
+
+#mail,
+#password {
+  width: 400px;
+  height: 39px;
+  font-size: 20px;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+input {
+  margin-bottom: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: #1e1e1e;
+}
+
+button {
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+input[type="submit"] {
+  width: 200px;
+  height: 35px;
+  background: green;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+input[type="radio"] {
+  margin-left: 10px;
+  background: #ffffff;
+}
+
+label {
+  font-size: 20px;
+  font-family: sans-serif;
+}
