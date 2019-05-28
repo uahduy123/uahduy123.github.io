@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Đăng ký thành công</h1>
+    <h2>Thông tin đăng ký của bạn như sau:</h2>
+
+<span id="check1"></span>
+
+    <script>
+        let str=decodeURIComponent(window.location.href);
+        let n = str.slice(str.indexOf("Firtname"));
+        let y = n.replace(/&/g, "<br>");
+        let x= y.replace(/=/g, ": ")
+        let z = x.split('+').join(' ');
+        document.getElementById("check1").innerHTML = z;
+        
+    </script>
+</body>
+
+</html>
