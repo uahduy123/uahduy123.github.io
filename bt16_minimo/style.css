@@ -1,0 +1,40 @@
+body{
+    color: #8a8a8a;
+    font-family: 'playfair Display';
+}
+*{
+    box-sizing: border-box;
+}
+
+header nav{
+    margin: 70px 0px;
+    font-weight: bold;
+}
+
+#menu{
+    text-transform:uppercase; 
+}
+
+.card{
+    border: none;
+    padding:50px;
+}
+
+#search{
+    margin: 50px 0px;
+}
+
+#button{
+    border-radius:0;
+    border : 2px solid #8a8a8a;
+}
+
+footer{
+    margin-top: 1000px;
+    background: #8a8a8a;
+    padding: 40px 0px;
+}
+
+footer a{
+    color: black;
+}
