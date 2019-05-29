@@ -21,11 +21,6 @@
 
 }
 
-img{
-    width: 100%;
-    border: 1px solid grey;
-    transition: 2s;
-}
 
 img:hover{
     opacity: 0.8;
@@ -61,3 +56,16 @@ h1{
         font-size: 25px;
     }
 }
+
+
+#img{
+    max-height: 50%;
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+}
+
