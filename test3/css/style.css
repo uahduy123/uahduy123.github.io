@@ -1,0 +1,225 @@
+
+* {
+    margin:0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page_nagvi{
+	width: 100%;
+	height: 70px;
+	margin:0px;
+	padding:10px 100px;
+}
+.navbar-nav{
+	width: 100%;
+}
+.page_nagvi li{
+	width: 15%;
+	text-align: center;
+	font-size: 16px;
+}
+.page_body{
+	width: 100%;
+	margin:0px;
+	padding:10px 100px;
+	margin-top: 20px;
+}
+#wrap, .banner {
+	margin-top: 4rem;
+	position: relative;	
+}
+.img-fluid {
+    width: 100%;
+	height: auto;
+}
+#wrap-more-post:hover .title-post {
+    opacity: 1;
+}
+.title-post{
+	padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+	background-color: #feffffcf;
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+    transform: translate(-50%);
+}
+.title-post1 {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    background-color: #f1a940;
+	transition: all 1s linear;
+	transform: translate(-50%);
+}
+#more-post1 {
+    padding: 2rem 0;
+    display: block;
+    column-count: 3;
+}
+.title-post2 {
+    position: relative;
+    left: 50%;
+    bottom: 0px;
+    background-color: #f1a940;
+	transform: translate(-50%);
+}
+.title-post3 {
+    position: relative;
+    left: 50%;
+    bottom: -10px;
+    background-color: #f1a940;
+	transform: translate(-50%);
+}
+html,
+body {
+    font-family: 'Chivo', sans-serif;
+
+}
+
+
+.boxMenu {
+    margin-top: 50px;
+}
+
+.boxUser {
+    border: 0.5px solid #f2f2f2;
+}
+
+.boxUser:hover {
+    background: #66BB6A;
+}
+
+.boxUser p:hover {
+    color: #fff;
+}
+
+.styleTextOne {
+    font-size: 18pt;
+    color: #263238;
+}
+
+.boxUserOne {
+    border: 0.5px solid #f2f2f2;
+    margin-left: 20px;
+}
+
+.boxUserOne:hover {
+    background: #66BB6A;
+}
+
+.boxUserOne p:hover {
+    color: #fff;
+}
+
+.boxMenuThree {
+    margin-top: 50px;
+}
+
+
+.marginText {
+    margin-top: 20pt;
+    margin-left: 20px;
+}
+
+.marginTextOne {
+    margin-top: 31px;
+    margin-left: 20px;
+}
+
+.marginTextTwo {
+    margin-top: 22px;
+    margin-left: 20px;
+}
+
+.marginTextThree {
+    margin-left: 20px;
+    position: relative;
+}
+
+.marginTextFour {
+    margin-top: 305px;
+    margin-left: 20px;
+    position: absolute;
+}
+.pagination{
+    margin-top: 50px;
+}
+.page-item{
+    margin-left: 20px;
+}
+
+
+/* footer */
+footer {
+    background-color: rgb(83, 80, 80);
+    color: aliceblue;
+}
+
+.row_1 {
+    line-height: 1.5rem;
+}
+
+
+.light-100 {
+    border-bottom: 1px solid rgb(195, 207, 84);
+    width: 100%;
+}
+
+.col-md-4 {
+    text-align: left;
+}
+
+.logofooter {
+    background-color: rgba(14, 12, 12, 1);
+    color: aliceblue;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.col-md-4 h5 {
+    margin-bottom: 2rem;
+}
+
+.form-control {
+    background-color: rgb(83, 80, 80);
+    color: white; 
+}
+
+.follow {
+    margin-top: 2rem;
+    margin-bottom: 1rem !important;
+}
+
+.iconfo i {
+    padding: 0 0.5rem;
+}
+
+.card_1 {
+    background-color: rgb(83, 80, 80);
+    border: 0px solid rgba(10, 9, 9, .5);
+}
+
+.card-body {
+    padding: 0 0.5rem;
+}
+
+.card-text {
+    margin-bottom: 0.5rem !important;
+}
+
+.copyright {
+    
+    color: rgb(189, 96, 43);
+}
+
+.copyright:hover {
+    text-decoration: none;
+}
+/* end footer */
